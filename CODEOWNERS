@@ -1,0 +1,5 @@
+# Global owners for the OSDO organization
+* @opensecdevops/maintainers
+
+# Security-sensitive files
+SECURITY.md @opensecdevops/security-team

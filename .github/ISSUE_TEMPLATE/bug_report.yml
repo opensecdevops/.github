@@ -1,0 +1,66 @@
+name: 🐛 Bug Report
+description: Report a bug in an OSDO component
+labels: ["bug", "triage"]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which OSDO component is affected?
+      options:
+        - osdo-sast
+        - osdo-sca
+        - osdo-secrets-scan
+        - osdo-container-scan
+        - osdo-iac-scan
+        - osdo-sbom
+        - osdo-sign
+        - osdo-cli
+        - osdo-app
+        - osdo-workflows
+        - osdo-operator
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Clear description of the bug
+      placeholder: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Run command '...'
+        2. See error '...'
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version are you using?
+      placeholder: v2.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, runner, relevant tool versions
+      placeholder: |
+        - OS: Ubuntu 22.04
+        - Runner: GitHub-hosted
+        - Node: 20.x
