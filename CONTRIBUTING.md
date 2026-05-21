@@ -50,6 +50,33 @@ cd COMPONENT
 # Follow the README for component-specific setup
 ```
 
+### Developer Certificate of Origin (DCO)
+
+All contributions must be signed off per the [Developer Certificate of Origin](https://developercertificate.org/). This certifies that you have the right to submit your contribution under the project's license.
+
+**How to sign off:**
+
+```bash
+# Add -s flag to your commits
+git commit -s -m "feat: add new scanning rule"
+
+# This adds: Signed-off-by: Your Name <your@email.com>
+```
+
+**Configure git for automatic sign-off:**
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
+If you forget to sign off, amend your commit:
+
+```bash
+git commit --amend -s --no-edit
+git push --force-with-lease
+```
+
 ### Pull Request Guidelines
 
 - Fill out the PR template completely
