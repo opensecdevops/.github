@@ -1,3 +1,5 @@
+English | [Español](https://github.com/opensecdevops/.github/blob/main/profile/README.es.md)
+
 # OpenSecDevOps (OSDO)
 
 **Security-first DevOps framework for CI/CD pipelines.**
@@ -47,6 +49,14 @@ osdo init --template basic
 - [Getting Started](https://github.com/opensecdevops/documentation/blob/main/docs/getting-started/README.md)
 - [Contributing](https://github.com/opensecdevops/.github/blob/main/CONTRIBUTING.md)
 - [Security Policy](https://github.com/opensecdevops/.github/blob/main/SECURITY.md)
+
+## Maintainers
+
+OSDO (Open SecDevOps) was created and is maintained by [Spectertj](https://github.com/Spectertj), who is its creator and maintainer.
+
+## Ecosystem
+
+- HOLOS — open-source agentic engineering toolkit by the same creator, built and released with OSDO
 
 ## License
 
