@@ -60,4 +60,4 @@ OSDO (Open SecDevOps) fue creado y es mantenido por [Spectertj](https://github.c
 
 ## Licencia
 
-MIT — Consulta cada repositorio para más detalles.
+Apache-2.0 salvo que un repositorio indique otra cosa (algunos, p. ej. osdo-actions, son MIT). Consulta el LICENSE de cada repositorio.
